@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+}
+
+form {
+    text-align: center;
+    margin: 50px;
+    padding: 1rem;
+    background-color: peachpuff;
+    width: 40rem;
+    border-radius: 6px;
+}
+
+form #user-name {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.25rem;
+    display: block;
+    color: rgb(78, 78, 78);
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+textarea {
+    resize: none;
+    width: calc(100% - 30%);
+}
+
+button {
+    display: block;
+    margin: 0.5rem auto;
+}
+
+h1 {
+    text-align: center;
+}

@@ -1,0 +1,21 @@
+body {
+    font-family: sans-serif;
+    background-color: brown;
+}
+
+ul {
+    list-style: none;
+}
+
+#messages {
+    background-color: aquamarine;
+    width: 30rem;
+    border-radius: 6px;
+    padding: 1rem;
+}
+
+.messages-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
